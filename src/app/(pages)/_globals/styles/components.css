@@ -1,0 +1,13 @@
+@tailwind components;
+
+@layer components {
+  /* text colors */
+  .text-dark {
+	@apply text-neutral-800;
+  }
+
+  /* border */
+  .border-primary-color {
+	@apply border-rose-500;
+  }
+}
