@@ -19,7 +19,8 @@
     ],
     "paths": {
 	  "@components/*": ["./src/app/(pages)/_components/*"],
-	  "@globals/*": ["./src/app/(pages)/_globals/*"]
+	  "@globals/*": ["./src/app/(pages)/_globals/*"],
+	  "@data/*": ["./src/app/(pages)/_data/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
