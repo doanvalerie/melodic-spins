@@ -4,7 +4,7 @@
 @layer base {
   body {
     @apply font-assistant;
-	@apply text-neutral-800;
+	@apply text-dark;
   }
 
   h1, h2, h3, h4 {
@@ -28,6 +28,6 @@
   }
 
   button {
-	@apply px-base py-xs text-base font-semibold;
+	@apply px-base py-xs text-base font-semibold rounded-md;
   }
 }

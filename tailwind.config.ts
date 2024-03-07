@@ -13,9 +13,25 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      colors: {
+        primary: {
+          light: '#ffe4e6',
+          DEFAULT: '#f43f5e',
+        },
+      },
       fontFamily: {
         rubik: ['var(--font-rubik)'],
         assistant: ['var(--font-assistant)'],
+      },
+      textColor: {
+        dark: '#262626',
+        grey: {
+          light: '#9ca3af',
+          DEFAULT: '#6b7280',
+        },
+      },
+      backgroundColor: {
+        stone: '#f5f5f4',
       },
     },
     spacing: {
