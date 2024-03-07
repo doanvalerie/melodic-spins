@@ -4,20 +4,20 @@ import clsx from 'clsx';
 import Link from 'next/link';
 import { useState } from 'react';
 
-import navLinksIndex from '@data/navLinksIndex.json';
+import navLinksIndex from '@data/index/navLinksIndex.json';
 
 export default function Links() {
   const [activeSlug, setActiveSlug] = useState('Home');
 
   return (
-    <div className="hidden gap-med text-base font-semibold text-neutral-400 lg:flex">
+    <div className="hidden gap-med text-base font-semibold text-grey-light lg:flex">
       {navLinksIndex.map((link) => (
         <Link key={link.name} href="/">
           <div
             className={clsx({
-              'text-dark border-primary-color hover:text-dark border-b-2 font-bold':
+              'border-b-2 border-primary font-bold text-dark hover:text-dark':
                 activeSlug === link.name,
-              'hover:text-neutral-500': activeSlug !== link.name,
+              'hover:text-grey': activeSlug !== link.name,
             })}
             onClick={() => setActiveSlug(link.name)}
           >
