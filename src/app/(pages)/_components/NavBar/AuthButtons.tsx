@@ -20,7 +20,7 @@ function SignInButton() {
 function SignUpButton() {
   return (
     <Link href="/sign-up">
-      <button className="border-primary-color rounded-sm border text-rose-500 hover:bg-red-100 hover:font-bold">
+      <button className="border border-primary text-primary hover:bg-primary-light hover:font-bold">
         Sign Up
       </button>
     </Link>
