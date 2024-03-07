@@ -1,25 +1,32 @@
+import Image from 'next/image';
+
+import BulletList from './BulletList';
+import Description from './Description';
+import StartLearnLinks from './StartLearnLinks';
+
 export default function Hero() {
   return (
-    <div className="flex items-center justify-center font-playfair p-lg">
-      <Greeting />
-      <div>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus
-        officia, id impedit sapiente maxime et aut enim odit rerum accusamus
-        ipsam repellat culpa consectetur expedita odio eaque earum ratione
-        excepturi!
+    <div className="font-playfair gap-xl relative flex grow flex-col items-center justify-center p-lg md:flex-row">
+      <Image
+        alt="Mountains"
+        src="/index/music.jpg"
+        fill
+        objectFit="cover"
+        className="absolute opacity-5"
+      />
+      <div className="relative flex w-full flex-col gap-sm lg:w-6/12">
+        <Description />
+        <StartLearnLinks />
+        <BulletList />
       </div>
-    </div>
-  );
-}
-
-function Greeting() {
-  return (
-    <div className="flex flex-col gap-xs">
-      <h1>Let Your Music Spin, Connect Harmoniously</h1>
-      <div>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore
-        repudiandae ducimus dicta, at modi error voluptate cumque pariatur est
-        beatae quibusdam aperiam ullam fugit sequi quod ab aut magni fugiat?
+      <div className="hidden lg:block">
+        <Image
+          alt="gathering of diverse musicians"
+          src="/index/hero.jpg"
+          width={500}
+          height={750}
+          style={{ objectFit: 'cover' }}
+        />
       </div>
     </div>
   );
