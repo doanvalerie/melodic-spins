@@ -1,0 +1,27 @@
+[
+  {
+    "label": "First Name",
+    "value": "firstName",
+    "type": "text"
+  },
+  {
+    "label": "Last Name",
+    "value": "lastName",
+    "type": "text"
+  },
+  {
+    "label": "Username",
+    "value": "username",
+    "type": "text"
+  },
+  {
+    "label": "Email",
+    "value": "email",
+    "type": "email"
+  },
+  {
+    "label": "Phone Number",
+    "value": "phone",
+    "type": "tel"
+  }
+]
