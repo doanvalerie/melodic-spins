@@ -33,13 +33,14 @@ const config: Config = {
       backgroundColor: {
         stone: '#f5f5f4',
       },
-    },
-    spacing: {
-      xs: '8px',
-      sm: '16px',
-      base: '24px',
-      med: '48px',
-      lg: '80px',
+      spacing: {
+        xs: '8px',
+        sm: '16px',
+        base: '24px',
+        med: '48px',
+        lg: '80px',
+        navbar: '80px',
+      },
     },
   },
   plugins: [],
