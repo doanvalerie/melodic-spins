@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Description() {
   return (
-    <div className="flex flex-col items-center gap-med">
+    <div className="flex w-full flex-col items-center gap-med lg:w-1/2">
       <div className="flex flex-col gap-sm">
         <h1>Sign Up</h1>
         <p>
@@ -12,7 +12,7 @@ export default function Description() {
         </p>
       </div>
       <Image
-        src="/sign-up/happy_music.svg"
+        src="/auth/sign-up/happy_music.svg"
         alt="cartoon bird listening to music"
         width="0"
         height="0"
