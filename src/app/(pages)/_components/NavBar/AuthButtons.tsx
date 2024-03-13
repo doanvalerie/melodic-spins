@@ -11,7 +11,7 @@ export default function AuthButtons() {
 
 function SignInButton() {
   return (
-    <Link href="/sign-in">
+    <Link href="/auth/sign-in">
       <button className="hover:font-bold">Sign In</button>
     </Link>
   );
@@ -19,7 +19,7 @@ function SignInButton() {
 
 function SignUpButton() {
   return (
-    <Link href="/sign-up">
+    <Link href="/auth/sign-up">
       <button className="border border-primary text-primary hover:bg-primary-light hover:font-bold">
         Sign Up
       </button>

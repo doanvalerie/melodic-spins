@@ -7,7 +7,7 @@ export default function AuthButtons() {
         Register
       </button>
       <div>
-        Have an account? <Hyperlink slug="/sign-in" value="Sign In." />
+        Have an account? <Hyperlink slug="/auth/sign-in" value="Sign In." />
       </div>
     </div>
   );
