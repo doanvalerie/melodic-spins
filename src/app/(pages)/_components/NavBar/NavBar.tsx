@@ -4,7 +4,7 @@ import Logo from './Logo';
 
 export default function NavBar() {
   return (
-    <div className="flex h-navbar w-full items-center justify-between gap-base bg-stone px-base py-sm">
+    <div className="flex h-navbar w-full items-center justify-between gap-base bg-stone px-base py-sm shadow-md">
       <Logo />
       <Links />
       <AuthButtons />
