@@ -12,7 +12,7 @@ export default function StartLearnLinks() {
 
 function GetStartedLink() {
   return (
-    <Link href="/sign-up">
+    <Link href="/auth/sign-up">
       <button className="bg-primary text-white">Get Started Today</button>
     </Link>
   );
