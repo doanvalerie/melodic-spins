@@ -8,6 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      backgroundColor: {
+        stone: '#f5f5f4', // stone-100
+        charcoal: '#71717a', // zinc-500
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
@@ -23,16 +27,6 @@ const config: Config = {
         rubik: ['var(--font-rubik)'],
         assistant: ['var(--font-assistant)'],
       },
-      textColor: {
-        dark: '#262626',
-        grey: {
-          light: '#9ca3af',
-          DEFAULT: '#6b7280',
-        },
-      },
-      backgroundColor: {
-        stone: '#f5f5f4',
-      },
       spacing: {
         xs: '8px',
         sm: '16px',
@@ -40,6 +34,14 @@ const config: Config = {
         med: '48px',
         lg: '80px',
         navbar: '80px',
+      },
+      textColor: {
+        dark: '#262626',
+        light: '#ffffff',
+        grey: {
+          light: '#9ca3af',
+          DEFAULT: '#6b7280',
+        },
       },
     },
   },

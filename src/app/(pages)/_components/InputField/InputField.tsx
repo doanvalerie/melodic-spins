@@ -18,7 +18,7 @@ export default function InputField({
         id={value}
         type={type}
         name={value}
-        className="rounded-lg bg-stone p-sm py-xs outline-none"
+        className="rounded-md bg-stone px-sm py-xs outline-none"
       />
     </div>
   );

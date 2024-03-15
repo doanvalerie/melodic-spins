@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Contact Information",
+    "slug": "/contact"
+  },
+  {
+    "name": "Support/Help Center",
+    "slug": "/support"
+  },
+  {
+    "name": "FAQs",
+    "slug": "/support/faqs"
+  }
+]
