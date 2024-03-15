@@ -6,7 +6,7 @@ import StartLearnLinks from './StartLearnLinks';
 
 export default function Hero() {
   return (
-    <div className="font-playfair gap-xl relative flex h-[calc(100vh-theme(spacing.navbar))] min-h-fit flex-col items-center justify-center p-lg md:flex-row">
+    <div className="gap-xl relative flex h-[calc(100vh-theme(spacing.navbar))] min-h-fit flex-col items-center justify-center p-lg md:flex-row">
       <Image
         alt="Mountains"
         src="/index/music.jpg"
