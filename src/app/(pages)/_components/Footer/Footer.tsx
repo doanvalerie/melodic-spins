@@ -1,8 +1,8 @@
+import BrandLogo from '@components/BrandLogo/BrandLogo';
 import aboutUsLinks from '@data/footer/aboutLinks.json';
 import contactLinks from '@data/footer/contactLinks.json';
 import policyLinks from '@data/footer/policyLinks.json';
 
-import BrandHeader from './BrandHeader';
 import LinkGrouping from './LinkGrouping';
 import MailSubscription from './MailSubscription';
 import SocialMediaIcons from './SocialMediaIcons';
@@ -12,7 +12,7 @@ export default function Footer() {
     <div className="bg-charcoal text-light w-full px-med py-med">
       <div className="flex flex-col items-center justify-between gap-med lg:flex-row lg:items-start lg:gap-sm">
         <div className="flex w-full flex-col gap-base lg:w-1/3">
-          <BrandHeader />
+          <BrandLogo />
           <MailSubscription />
           <SocialMediaIcons />
         </div>
