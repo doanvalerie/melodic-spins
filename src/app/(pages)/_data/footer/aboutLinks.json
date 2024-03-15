@@ -1,0 +1,14 @@
+[
+  {
+    "name": "About Us",
+    "slug": "/about"
+  },
+  {
+    "name": "Mission",
+    "slug": "/about/mission"
+  },
+  {
+    "name": "Team",
+    "slug": "/about/team"
+  }
+]

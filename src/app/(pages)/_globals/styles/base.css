@@ -8,7 +8,7 @@
   }
 
   h1, h2, h3, h4 {
-    @apply font-rubik font-semibold;
+    @apply font-rubik font-medium;
   }
 
   h1 {

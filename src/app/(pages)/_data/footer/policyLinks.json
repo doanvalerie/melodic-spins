@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Terms and Services",
+    "slug": "/legal/terms-and-services"
+  },
+  {
+    "name": "Privacy Policy",
+    "slug": "/legal/privacy-policy"
+  },
+  {
+	"name": "Accessibility Statement",
+	"slug": "/legal/accessibility-statement"
+  }
+]
