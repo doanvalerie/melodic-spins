@@ -39,8 +39,8 @@ const config: Config = {
         dark: '#262626',
         light: '#ffffff',
         grey: {
-          light: '#9ca3af',
-          DEFAULT: '#6b7280',
+          light: '#a1a1aa', // zinc-400
+          DEFAULT: '#71717a', // zinc-500
         },
       },
     },

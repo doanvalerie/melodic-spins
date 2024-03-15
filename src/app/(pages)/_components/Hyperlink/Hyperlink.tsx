@@ -12,7 +12,7 @@ export default function Hyperlink({
   return (
     <Link href={slug}>
       <div
-        className={`${color ? color : 'text-black'} inline-block font-semibold`}
+        className={`${color ? color : 'text-dark'} inline-block font-semibold`}
       >
         {value}
       </div>

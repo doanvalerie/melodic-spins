@@ -25,7 +25,7 @@ const bullets = [
 
 export default function BulletList() {
   return (
-    <div className="grid gap-sm lg:grid-cols-2 ">
+    <div className="grid gap-sm lg:grid-cols-2">
       {bullets.map((item) => (
         <BulletItem key={item.value} {...item} />
       ))}
@@ -41,7 +41,7 @@ function BulletItem({
   value: string;
 }) {
   return (
-    <div className="flex items-center gap-sm font-semibold ">
+    <div className="flex items-center gap-sm font-semibold">
       <Icon size={21} className="text-primary" />
       {value}
     </div>
