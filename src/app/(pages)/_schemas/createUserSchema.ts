@@ -19,4 +19,7 @@ export const createUserSchema = z.object({
   password: z
     .string()
     .min(6, { message: 'Password must consist of at least 6 characters.' }),
+  agree: z.coerce.boolean().refine((value) => value === true, {
+    message: 'Agreement to the policies is required.',
+  }),
 });
