@@ -4,14 +4,14 @@ import clsx from 'clsx';
 import Link from 'next/link';
 import { useState } from 'react';
 
-import navLinksIndex from '@data/index/navLinksIndex.json';
+import navLinks from '@data/index/navLinks.json';
 
 export default function Links() {
   const [activeSlug, setActiveSlug] = useState('Home');
 
   return (
     <div className="hidden gap-med text-base font-semibold text-grey-light lg:flex">
-      {navLinksIndex.map((link) => (
+      {navLinks.map((link) => (
         <Link key={link.name} href="/">
           <div
             className={clsx({

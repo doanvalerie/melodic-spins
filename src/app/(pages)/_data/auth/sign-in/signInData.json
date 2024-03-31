@@ -1,8 +1,8 @@
 [
   {
-    "label": "Username",
-    "value": "username",
-    "type": "text"
+    "label": "Email",
+    "value": "email",
+    "type": "email"
   },
   {
     "label": "Password",
