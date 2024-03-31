@@ -54,7 +54,7 @@ export default function Form() {
           {errors[data.value] && <FormError errors={errors[data.value]} />}
         </div>
       ))}
-      <UserAgreement />
+      <UserAgreement agreementError={errors['agree']} />
       <AuthButtons />
     </form>
   );
