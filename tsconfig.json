@@ -11,6 +11,7 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
+    "downlevelIteration": true,
     "incremental": true,
     "plugins": [
       {
@@ -18,9 +19,15 @@
       }
     ],
     "paths": {
-	  "@components/*": ["./src/app/(pages)/_components/*"],
-	  "@globals/*": ["./src/app/(pages)/_globals/*"],
-	  "@data/*": ["./src/app/(pages)/_data/*"]
+      "@actions/*": ["./src/app/(api)/_actions/*"],
+      "@components/*": ["./src/app/(pages)/_components/*"],
+	  "@contexts/*": ["./src/app/(pages)/_contexts/*"],
+      "@data/*": ["./src/app/(pages)/_data/*"],
+	  "@firebase/*": ["./src/app/(firebase)/*"],
+      "@globals/*": ["./src/app/(pages)/_globals/*"],
+      "@graphql/*": ["./src/app/(api)/_graphql/*"],
+	  "@schemas/*": ["./src/app/(pages)/_schemas/*"],
+      "@utils/*": ["./src/app/(api)/_utils/*"],
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],

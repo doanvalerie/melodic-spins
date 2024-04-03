@@ -17,11 +17,11 @@
   {
     "label": "Email",
     "value": "email",
-    "type": "email"
+    "type": "text"
   },
   {
-    "label": "Phone Number",
-    "value": "phone",
-    "type": "tel"
+	"label": "Password",
+	"value": "password",
+	"type": "password"
   }
 ]

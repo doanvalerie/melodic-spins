@@ -10,7 +10,7 @@ const config: Config = {
     extend: {
       animation: {
         'text-slide-5':
-          'text-slide-5 20s cubic-bezier(0.83, 0, 0.17, 1) infinite',
+          'text-slide-5 15s cubic-bezier(0.83, 0, 0.17, 1) infinite',
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
@@ -18,12 +18,15 @@ const config: Config = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       colors: {
+        charcoal: '#71717a', // zinc-500
         primary: {
           light: '#ffe4e6',
           DEFAULT: '#f43f5e',
         },
+        red: {
+          error: '#dc2626', // red-600
+        },
         stone: '#f5f5f4', // stone-100
-        charcoal: '#71717a', // zinc-500
       },
       fontFamily: {
         rubik: ['var(--font-rubik)'],
