@@ -37,6 +37,8 @@ export default function Form() {
 
       if (result) {
         formData.append('id', result.user.uid);
+        formData.delete('agree');
+
         await CreateUser(formData);
         router.push('/dashboard');
       }
