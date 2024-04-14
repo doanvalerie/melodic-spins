@@ -42,7 +42,7 @@ function BulletItem({
 }) {
   return (
     <div className="flex items-center gap-sm font-semibold">
-      <Icon size={21} className="text-primary" />
+      <Icon size={20} className="text-primary" />
       {value}
     </div>
   );

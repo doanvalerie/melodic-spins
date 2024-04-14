@@ -9,7 +9,7 @@ import SocialMediaIcons from './SocialMediaIcons';
 
 export default function Footer() {
   return (
-    <div className="bg-charcoal text-light w-full px-med py-med">
+    <div className="w-full bg-charcoal px-med py-med text-light">
       <div className="flex flex-col items-center justify-between gap-med lg:flex-row lg:items-start lg:gap-sm">
         <div className="flex w-full flex-col gap-base lg:w-1/3">
           <BrandLogo />
