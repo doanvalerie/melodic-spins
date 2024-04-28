@@ -1,4 +1,4 @@
-import { Rubik, Assistant } from 'next/font/google';
+import { Assistant, Rubik } from 'next/font/google';
 
 const rubik = Rubik({
   subsets: ['latin'],

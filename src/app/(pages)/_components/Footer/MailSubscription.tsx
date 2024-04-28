@@ -1,7 +1,7 @@
 export default function MailSubscription() {
   return (
     <form className="flex flex-col gap-xs">
-      <label htmlFor="email" className="text-lg font-semibold">
+      <label htmlFor="email" className="text-lg">
         Get the freshest melodic news.
       </label>
       <div className="flex">

@@ -18,7 +18,10 @@ const config: Config = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       colors: {
-        charcoal: '#71717a', // zinc-500
+        charcoal: {
+          DEFAULT: '#8f888f',
+          dark: '#7d777d',
+        },
         primary: {
           light: '#ffe4e6',
           DEFAULT: '#f43f5e',
