@@ -1,0 +1,46 @@
+[
+  {
+    "label": "Dashboard",
+    "icon": "LuLayoutDashboard",
+    "links": [
+      {
+        "name": "Test",
+        "slug": "/dashboard/test"
+      }
+    ]
+  },
+  {
+    "label": "Discover",
+    "icon": "MdOutlineExplore",
+    "links": [
+      {
+        "name": "Test",
+        "slug": "/discover/test"
+      }
+    ]
+  },
+  {
+    "label": "Forum",
+    "icon": "MdOutlineForum",
+    "links": [
+      {
+        "name": "Test",
+        "slug": "/forum/test"
+      }
+    ]
+  },
+  {
+    "label": "Profile",
+    "icon": "FaRegUser",
+    "links": [
+      {
+        "name": "Edit",
+        "slug": "/profile/edit"
+      },
+      {
+        "name": "Media",
+        "slug": "/profile/media"
+      }
+    ]
+  }
+]

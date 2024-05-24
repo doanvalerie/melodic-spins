@@ -30,4 +30,8 @@
   button {
 	@apply px-base py-xs text-base font-semibold rounded-md;
   }
+
+  input {
+	@apply border-gray-border;
+  }
 }

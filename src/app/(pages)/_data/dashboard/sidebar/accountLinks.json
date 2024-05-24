@@ -1,0 +1,12 @@
+[
+  {
+    "label": "Settings",
+    "icon": "IoSettingsOutline",
+    "slug": "/settings"
+  },
+  {
+    "label": "Support",
+    "icon": "IoMdHelpCircleOutline",
+    "slug": "/support"
+  }
+]
