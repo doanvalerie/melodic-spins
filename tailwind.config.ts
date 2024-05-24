@@ -22,6 +22,9 @@ const config: Config = {
           DEFAULT: '#8f888f',
           dark: '#7d777d',
         },
+        gray: {
+          border: '#d1d5db', // gray-300
+        },
         primary: {
           light: '#ffe4e6',
           DEFAULT: '#f43f5e',
@@ -70,6 +73,7 @@ const config: Config = {
         light: '#ffffff',
         grey: {
           light: '#a1a1aa', // zinc-400
+          medium: '#6b7280', // gray-500
           DEFAULT: '#71717a', // zinc-500
         },
       },
