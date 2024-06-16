@@ -93,7 +93,7 @@ function ExpandableMenuItem({
       <div
         className={`flex gap-xs pl-sm duration-500 ease-out ${isExpanded ? 'mt-xs h-full' : 'h-0 -translate-y-full opacity-0'}`}
       >
-        <div className="border-gray-border border border-b-0 border-r-0 border-t-0 pl-xs" />
+        <div className="border border-b-0 border-r-0 border-t-0 border-gray-border pl-xs" />
         <div className="flex flex-col gap-xs">
           {links.map((link) => (
             <Link key={link.slug} href={link.slug}>

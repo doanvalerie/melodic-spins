@@ -1,14 +1,25 @@
 'use client';
 
+import { useContext } from 'react';
+
 import { withAuth } from '@contexts/AuthContext';
 
-import SideBar from './_components/SideBar/SideBar';
+import { SidebarContext } from './layout';
 
 function Dashboard() {
+  const showSideBar = useContext(SidebarContext);
+  const menuIconSize = 20;
+
   return (
-    <div className="flex w-full flex-grow justify-center font-sans">
-      <SideBar />
-      <div className="flex-grow bg-gray-100" />
+    <div
+      className={`bg-background-light flex-grow p-base ${showSideBar && 'pl-[calc(theme(spacing.base)+theme(spacing.sidebar))]'}`}
+    >
+      <h3
+        className={`${!showSideBar && `pl-[calc(${menuIconSize}px+theme(spacing.base))]`}`}
+      >
+        Dashboard
+      </h3>
+      <div className="py-sm">Test</div>
     </div>
   );
 }
