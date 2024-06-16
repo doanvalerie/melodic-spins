@@ -18,6 +18,9 @@ const config: Config = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       colors: {
+        background: {
+          light: '#f1f5f9', // slate-100
+        },
         charcoal: {
           DEFAULT: '#8f888f',
           dark: '#7d777d',
@@ -67,6 +70,7 @@ const config: Config = {
         med: '48px',
         lg: '80px',
         navbar: '80px',
+        sidebar: '277px',
       },
       textColor: {
         dark: '#262626',
